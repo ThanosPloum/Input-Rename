@@ -4,7 +4,7 @@
 ## File         : inp_rename.sh
 ## 
 ## Description  : The script responsible for renaming files sent from
-##				  an input channel according to the inp_rename.cfg file.
+##		  an input channel according to the inp_rename.cfg file.
 ##
 ## Authors		: Ploumakis Thanos
 ##
