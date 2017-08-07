@@ -1,3 +1,3 @@
 # Input-Rename
 
-Contains the input rename bash shell script, along with an example configuration file.
+The input rename bash shell script is responsible for renaming files sent from an input channel according to its configuration file. This repo includes an example configuration file.
