@@ -6,7 +6,7 @@
 ## Description  : The script responsible for renaming files sent from
 ##		  an input channel according to the inp_rename.cfg file.
 ##
-## Authors		: Ploumakis Thanos
+## Authors	: Ploumakis Thanos
 ##
 ## Release      : 22 March 2017
 ##
