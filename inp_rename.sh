@@ -225,8 +225,6 @@ function get_assoc_key {
 function rename_file {
 	if read_config; then
 		base_file_name=$(basename ${1})
-		if [[ $base_file_name == x* ]]; then return 0
-		elif [[ $base_file_name == X* ]]; then return 0
 		elif [[ ${base_file_name: (-4)} == ".tmp" ]]; then return 0
 		elif find_assoc_key ${base_file_name}; then
 			assoc_key=$(get_assoc_key ${base_file_name})
@@ -237,7 +235,7 @@ function rename_file {
 				write_log_msg "ERROR: Rename not successfull for ${1}."
 			fi
 		else
-			mv "${1}" "${HOME}/channels/unrouted/${base_file_name}" && write_log_msg "INFO: Missing rename value. File ${base_file_name} moved to unrouted directory."
+			mv "${1}" "${HOME}/unrouted/${base_file_name}" && write_log_msg "INFO: Missing rename value. File ${base_file_name} moved to unrouted directory."
 		fi
 	else
 		write_log_msg "ERROR: Could not read inp_rename.cfg configuration file."
