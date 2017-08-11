@@ -1,6 +1,8 @@
 # Input-Rename
 
-The input rename bash shell script is responsible for renaming files sent from an input channel according to its configuration file. This repo includes an example configuration file.
+This bash shell script is responsible for renaming files found in a directory(declared in its configuration file) then moving them to a second directory(specified in the script itself). 
+
+This repository includes an example configuration file.
 
 # License
 
