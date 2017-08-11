@@ -14,8 +14,8 @@
 
 #######################################################################
 ####################### global variables ##############################
-config_path="${HOME}/config/inp_rename.cfg"
-inp_path="${HOME}/channels/inp_rename"
+config_path="${HOME}/config files/inp_rename.cfg"
+inp_path="${HOME}/inp_rename"
 tar_path="${HOME}/pool"
 system_log="${HOME}/log"
 
